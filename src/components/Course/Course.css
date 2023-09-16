@@ -1,0 +1,62 @@
+body{
+   
+    background-color: #f3f3f3e7;
+    color: black;
+    margin: auto;
+}
+
+.card{
+   
+    width: 235px;
+    height: 310px;
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h5{
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.photo{
+    width:230px;
+    overflow: hidden;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(0, 0, 0, 0.287);
+}
+.description{
+    color: rgba(0, 0, 0, 0.609);
+}
+
+.card-btn{
+    width: 200px;
+    height: 30px;
+    background:#2F80ED;
+    color: white;
+    border-radius: 7px;
+}
+.card-btn:hover{
+    background:#2162b7; 
+    border: 2px solid black;
+}
+
+.home-container{
+    display: flex;
+    gap: 20px;
+}
+.card-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    line-height: normal;
+}
+ 

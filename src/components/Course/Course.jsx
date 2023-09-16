@@ -1,3 +1,10 @@
+import react, { useEffect, useState } from 'react';
+import "./Course.css";
+import Info from "../Info/Info"
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+
+
 const Course = () => {
     const [allCourses, setAllCourses] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
@@ -53,4 +60,4 @@ const Course = () => {
     );
 };
 
-export default Home;
+export default Course;

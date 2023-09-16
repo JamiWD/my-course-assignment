@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Cart.css";
+import "./Info.css";
 
 const Cart = ({ selectedCourses, totalPrice, totalUsedCredits, remaining }) => {
     console.log(selectedCourses)
